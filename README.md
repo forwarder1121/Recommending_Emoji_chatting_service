@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BERT를 이용한 이모지 추천 채팅 서비스
 
-## Getting Started
+Front : React.js   
+Back : Node.js(Express)   
+AI : Huggface API (finetuned BERT)   
+Service : Versel, AWS   
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[링크](https://sentimentanalysis-forwarder1121s-projects.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+현재 AWS 비용 문제로 인해 호스팅하지 않고 있습니다.   
+따라서, 현재는 Vercel에서만 1인용으로만 시연가능합니다. (실제 대화는 불가)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img width="395" alt="image" src="https://github.com/forwarder1121/Emoji_recommend_chat/assets/66872094/7093e30b-95c7-4175-b77d-f68599093611">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+사용법 : 영어 문장을 입력하면 1초 후에 이모지를 추천받을 수 있습니다.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
