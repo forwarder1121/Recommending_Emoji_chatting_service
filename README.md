@@ -3,7 +3,7 @@
 Front : React.js   
 Back : Node.js(Express)   
 AI : Huggface API (finetuned BERT)   
-Service : Versel, AWS   
+Service : Vercel, AWS   
 
 ---
 
